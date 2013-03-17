@@ -1,0 +1,33 @@
+{
+  "name": "es-6-contains-polyfill",
+  "version": "1.0.0",
+  "description": "Simple ES6 String.prototype.contains Polyfill",
+  "main": "dist/es-6-contains-polyfill.js",
+  "ignore": [
+    "test/",
+    "node_modules/",
+    "src/",
+    "LICENSE",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "keywords": [
+    "es6",
+    "contains",
+    "harmony"
+  ],
+  "homepage": "https://github.com/robertkowalski/es-6-contains-polyfill",
+  "bugs": "https://github.com/robertkowalski/es-6-contains-polyfill/issues",
+  "author": {
+    "name": "Robert Kowalski",
+    "email": "rok@kowalski.gd",
+    "url": "http://robert-kowalski.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:robertkowalski/es-6-contains-polyfill.git"
+  },
+  "licenses": [{
+    "type": "MIT"
+  }]
+}
