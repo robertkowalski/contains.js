@@ -1,7 +1,9 @@
 /*!
-es-6-contains-polyfill - v1.0.0 - 2013-03-17
-* https://github.com/robertkowalski/es-6-contains-polyfill
-* Copyright (c) 2013 Robert Kowalski; Licensed MIT */
+* contains.js - A simple ES6 String.prototype.contains Polyfill
+* v1.0.0 - 2013-03-18
+* https://github.com/robertkowalski/contains.js
+* Copyright (c) 2013 Robert Kowalski; Licensed MIT
+*/
 ;(function() {
   'use strict';
 
