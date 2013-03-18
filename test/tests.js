@@ -39,3 +39,16 @@ test('takes a position #2', function() {
 test('takes a position #3', function() {
   ok('foo'.contains('o', 1) === true);
 });
+
+test('works with a Number', function() {
+  ok('foo3'.contains(3, 1) === true);
+});
+
+/* Now some weird type conversion stuff */
+test('foo3 contains array', function() {
+  ok('foo3'.contains([]) === true);
+});
+
+test('foo3 not contains object', function() {
+  ok('foo3'.contains({}) === false);
+});

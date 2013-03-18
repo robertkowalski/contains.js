@@ -14,10 +14,9 @@
   String.prototype.contains = function(value, pos) {
     var string = this;
     if (pos) {
-      string = string.slice(pos, -1);
+      string = string.slice(pos);
     }
-    return string.indexOf(value) !== -1;
+    return string.indexOf(value.toString()) !== -1;
   };
-
 
 })();
