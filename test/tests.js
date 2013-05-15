@@ -44,6 +44,21 @@ test('works with a Number', function() {
   ok('foo3'.contains(3, 1) === true);
 });
 
+test('works with String objects with no index', function() {
+  var str = new String('foo');
+  ok(str.contains('oo') === true);
+  ok(str.contains('Fo') === false);
+  ok(str == 'foo');
+});
+
+test('works with String objects with an index', function() {
+  var str = new String('foo');
+  ok(str.contains('f', 0) === true);
+  ok(str.contains('f', 1) === false);
+  ok(str.contains('oo', 1) === true);
+  ok(str == 'foo');
+});
+
 /* Now some weird type conversion stuff */
 test('foo3 contains array', function() {
   ok('foo3'.contains([]) === true);
